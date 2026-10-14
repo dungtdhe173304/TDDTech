@@ -18841,7 +18841,7 @@ t.jsxs(ContactChannelPair,{children:[t.jsxs("a", {
                       alt: "",
                       className: "h-5 w-5 rounded-sm",
                     }),
-                    siteText("Nhắn Zalo {{phone}}"),
+                    "Nhắn Zalo",
                   ],
                 }),t.jsx(FacebookContactLink,{variant:"faq",className:"mx-1 mt-3 inline-flex h-12 w-60 max-w-full items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-primary to-cyan-500 text-white font-semibold rounded-full hover:shadow-lg hover:shadow-primary/50 transition-all shadow-md"})]})],
             }),

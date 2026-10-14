@@ -58,10 +58,10 @@ site.company = {
   mainBusinessDetail: "Thiết kế website, phát triển phần mềm và ứng dụng web",
   taxProfileUrl: site.contactPath,
   bank: {
-    name: "Chưa cập nhật",
-    fullName: "Chưa cập nhật",
-    accountNumber: "Chưa cập nhật",
-    accountName: site.name,
+    name: "BIDV",
+    fullName: "BIDV",
+    accountNumber: "8862061291",
+    accountName: "Thiều Đức Dũng",
   },
 };
 export function siteUrl(path = "") {
