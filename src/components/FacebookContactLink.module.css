@@ -1,0 +1,17 @@
+a.button {
+  background-image: none;
+  background-color: #1877f2;
+  border-color: #1877f2;
+  color: #fff;
+}
+
+a.button:hover {
+  background-color: #166fe5;
+  border-color: #166fe5;
+  color: #fff;
+}
+
+a.button:focus-visible {
+  outline: 2px solid #1877f2;
+  outline-offset: 3px;
+}

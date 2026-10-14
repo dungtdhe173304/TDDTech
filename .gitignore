@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.next-production/
+.next-key-check/
+out/
+*.tsbuildinfo
+test-results/
+playwright-report/
+.env*.local
+.npm-cache/
+verification/
