@@ -50,8 +50,8 @@ for (const file of fs.readdirSync(path.join(root, "src/original"))) {
       node.initializer && ts.isArrayLiteralExpression(node.initializer)
     ) {
       const members = [
-        { name: "Đội ngũ XimiTech", role: "Giám đốc điều hành XimiTech", image: "/media/ximitech/company-profile/v1/tranthanhdo.webp" },
-        { name: "Đội ngũ TDDTech", role: "Tech Team & Founder TDDTech", image: "/media/ximitech/company-profile/v1/myavatar.png", short: "Định hướng sản phẩm, chịu trách nhiệm chất lượng bàn giao." },
+        { name: "Đội ngũ XimiTech", role: "Giám đốc điều hành XimiTech", image: "/media/tddtech/company-profile/v1/tranthanhdo.webp" },
+        { name: "Đội ngũ TDDTech", role: "Tech Team & Founder TDDTech", image: "/media/tddtech/company-profile/v1/myavatar.png", short: "Định hướng sản phẩm, chịu trách nhiệm chất lượng bàn giao." },
       ];
       for (const [index, member] of node.initializer.elements.entries()) {
         if (!ts.isObjectLiteralExpression(member)) continue;

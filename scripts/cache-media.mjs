@@ -12,19 +12,19 @@ const add = (url, filename) => jobs.set(url, filename);
 for (const match of main.matchAll(/slug:\s*"([a-z0-9-]+)"/g)) {
   for (const width of [640, 1280, 1920, 2880]) {
     const file = `projects/v2/${match[1]}-${width}.webp`;
-    add(`${original}/${file}`, `media/ximitech/${file}`);
+    add(`${original}/${file}`, `media/tddtech/${file}`);
   }
 }
 for (let n = 1; n <= 20; n++) {
   add(
     `${original}/kho-giao-dien/v1/${n}.webp`,
-    `media/ximitech/kho-giao-dien/v1/${n}.webp`,
+    `media/tddtech/kho-giao-dien/v1/${n}.webp`,
   );
 }
 for (const match of main.matchAll(
   /\$\{ae\}(\/[a-zA-Z0-9/.-]+\.(?:jpg|webm|mp4))/g,
 )) {
-  add(`${original}/video/v1${match[1]}`, `media/ximitech/video/v1${match[1]}`);
+  add(`${original}/video/v1${match[1]}`, `media/tddtech/video/v1${match[1]}`);
 }
 for (const file of await fs.readdir("src/original")) {
   const source = await fs.readFile(`../ximitech.vn/assets/${file}`, "utf8");
@@ -35,7 +35,7 @@ for (const file of await fs.readdir("src/original")) {
     if (match[0].startsWith(original))
       add(
         match[0],
-        `media/ximitech${url.pathname.slice("/uploads/ximitech".length)}`,
+        `media/tddtech${url.pathname.slice("/uploads/ximitech".length)}`,
       );
     else add(match[0], `media/external/${url.hostname}${url.pathname}`);
   }
@@ -107,7 +107,7 @@ const remoteImages = results.filter(
 for (const file of await fs.readdir("src/original")) {
   const filename = `src/original/${file}`;
   let source = await fs.readFile(filename, "utf8");
-  source = source.replaceAll(original, "/media/ximitech");
+  source = source.replaceAll(original, "/media/tddtech");
   for (const item of remoteImages)
     source = source.replaceAll(item.url, `/${item.filename}`);
   await fs.writeFile(filename, source);

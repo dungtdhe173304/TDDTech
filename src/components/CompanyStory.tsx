@@ -9,7 +9,7 @@ export default function CompanyStory() {
             <span className={styles.portraitTag}>CON NGƯỜI ĐẰNG SAU TDDTECH</span>
             <div className={styles.halo} aria-hidden="true" />
             <img
-              src="/media/ximitech/company-profile/v1/myavatar.png"
+              src="/media/tddtech/company-profile/v1/myavatar.png"
               alt="Thiều Đức Dũng — Tech Team & Founder TDDTech"
               width="1120"
               height="1392"

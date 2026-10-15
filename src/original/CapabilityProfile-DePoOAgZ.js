@@ -202,7 +202,7 @@ function Me() {
       description:
         "Năng lực TDDTech trong website doanh nghiệp, web app nghiệp vụ và website bán hàng. Xem quy trình, phạm vi bàn giao, kinh nghiệm nhà sáng lập và các dự án công khai.",
       path: "/ho-so-nang-luc",
-      image: "/media/ximitech/company-profile/v1/ximitech-profile-cover.webp",
+      image: "/media/tddtech/company-profile/v1/ximitech-profile-cover.webp",
       schema: [
         {
           "@context": "https://schema.org",
@@ -215,7 +215,7 @@ function Me() {
           url: siteUrl("/ho-so-nang-luc"),
           about: { "@id": siteUrl("/#organization") },
           primaryImageOfPage:
-            "/media/ximitech/company-profile/v1/ximitech-profile-cover.webp",
+            "/media/tddtech/company-profile/v1/ximitech-profile-cover.webp",
         },
         {
           "@context": "https://schema.org",
